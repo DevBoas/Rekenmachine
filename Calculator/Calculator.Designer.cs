@@ -1,6 +1,6 @@
 namespace Calculator
 {
-    partial class Calculator
+    partial class Rekenmachine
     {
         /// <summary>
         /// Required designer variable.
@@ -180,7 +180,7 @@ namespace Calculator
             // 
             this.RemoveInput.BackColor = System.Drawing.SystemColors.ControlLight;
             this.RemoveInput.FlatAppearance.BorderSize = 0;
-            this.RemoveInput.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemoveInput.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RemoveInput.Location = new System.Drawing.Point(123, 243);
             this.RemoveInput.Name = "RemoveInput";
             this.RemoveInput.Size = new System.Drawing.Size(50, 50);
@@ -194,8 +194,8 @@ namespace Calculator
             // 
             this.Delen.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Delen.FlatAppearance.BorderSize = 0;
-            this.Delen.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Delen.Location = new System.Drawing.Point(179, 131);
+            this.Delen.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Delen.Location = new System.Drawing.Point(235, 75);
             this.Delen.Name = "Delen";
             this.Delen.Size = new System.Drawing.Size(50, 50);
             this.Delen.TabIndex = 14;
@@ -208,13 +208,13 @@ namespace Calculator
             // 
             this.Multiply.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Multiply.FlatAppearance.BorderSize = 0;
-            this.Multiply.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Multiply.Location = new System.Drawing.Point(179, 187);
+            this.Multiply.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Multiply.Location = new System.Drawing.Point(179, 131);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(50, 50);
             this.Multiply.TabIndex = 15;
             this.Multiply.TabStop = false;
-            this.Multiply.Text = "X";
+            this.Multiply.Text = "x";
             this.Multiply.UseVisualStyleBackColor = false;
             this.Multiply.Click += new System.EventHandler(this.Multiply_Click);
             // 
@@ -237,9 +237,9 @@ namespace Calculator
             this.Math.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Math.FlatAppearance.BorderSize = 0;
             this.Math.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Math.Location = new System.Drawing.Point(12, 355);
+            this.Math.Location = new System.Drawing.Point(14, 299);
             this.Math.Name = "Math";
-            this.Math.Size = new System.Drawing.Size(218, 50);
+            this.Math.Size = new System.Drawing.Size(271, 50);
             this.Math.TabIndex = 14;
             this.Math.TabStop = false;
             this.Math.Text = "=";
@@ -250,8 +250,8 @@ namespace Calculator
             // 
             this.Subtract.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Subtract.FlatAppearance.BorderSize = 0;
-            this.Subtract.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Subtract.Location = new System.Drawing.Point(179, 243);
+            this.Subtract.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Subtract.Location = new System.Drawing.Point(235, 131);
             this.Subtract.Name = "Subtract";
             this.Subtract.Size = new System.Drawing.Size(50, 50);
             this.Subtract.TabIndex = 19;
@@ -264,7 +264,7 @@ namespace Calculator
             // 
             this.Plus.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Plus.FlatAppearance.BorderSize = 0;
-            this.Plus.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Plus.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Plus.Location = new System.Drawing.Point(179, 75);
             this.Plus.Name = "Plus";
             this.Plus.Size = new System.Drawing.Size(50, 50);
@@ -280,7 +280,7 @@ namespace Calculator
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 44);
+            this.textBox1.Size = new System.Drawing.Size(273, 44);
             this.textBox1.TabIndex = 21;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
@@ -303,8 +303,8 @@ namespace Calculator
             // 
             this.Euro.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Euro.FlatAppearance.BorderSize = 0;
-            this.Euro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Euro.Location = new System.Drawing.Point(11, 299);
+            this.Euro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Euro.Location = new System.Drawing.Point(179, 243);
             this.Euro.Name = "Euro";
             this.Euro.Size = new System.Drawing.Size(106, 50);
             this.Euro.TabIndex = 22;
@@ -317,8 +317,8 @@ namespace Calculator
             // 
             this.Procent.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Procent.FlatAppearance.BorderSize = 0;
-            this.Procent.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Procent.Location = new System.Drawing.Point(123, 299);
+            this.Procent.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Procent.Location = new System.Drawing.Point(179, 187);
             this.Procent.Name = "Procent";
             this.Procent.Size = new System.Drawing.Size(106, 50);
             this.Procent.TabIndex = 23;
@@ -327,11 +327,11 @@ namespace Calculator
             this.Procent.UseVisualStyleBackColor = false;
             this.Procent.Click += new System.EventHandler(this.Procent_Click);
             // 
-            // Calculator
+            // Rekenmachine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(244, 425);
+            this.ClientSize = new System.Drawing.Size(296, 358);
             this.Controls.Add(this.Procent);
             this.Controls.Add(this.Euro);
             this.Controls.Add(this.textBox1);
@@ -353,8 +353,9 @@ namespace Calculator
             this.Controls.Add(this.Eight);
             this.Controls.Add(this.Seven);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Calculator";
-            this.Text = "Calculator";
+            this.Name = "Rekenmachine";
+            this.ShowIcon = false;
+            this.Text = "Rekenmachine";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -8,12 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-// This is the code for your desktop app.
-// Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-
 namespace Calculator
 {
-    public partial class Calculator : Form
+    public partial class Rekenmachine : Form
     {
         string input = string.Empty;
         string fakeInput = string.Empty;
@@ -25,7 +22,7 @@ namespace Calculator
         Boolean canInput = true;
         Boolean symbol = false;
 
-        public Calculator()
+        public Rekenmachine()
         {
             InitializeComponent();
         }
