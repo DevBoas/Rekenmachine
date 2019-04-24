@@ -316,7 +316,6 @@ namespace Calculator
             // Procent
             // 
             this.Procent.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Procent.Enabled = false;
             this.Procent.FlatAppearance.BorderSize = 0;
             this.Procent.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Procent.Location = new System.Drawing.Point(179, 187);
