@@ -14,11 +14,12 @@ namespace Calculator
     {
         string input = string.Empty;
         string fakeInput = string.Empty;
-        string procent = string.Empty;
         string operand1 = string.Empty;
         string operand2 = string.Empty;
+
         char operation;
         double result = 0.0;
+
         Boolean canInput = true;
         Boolean symbol = false;
 
@@ -207,14 +208,7 @@ namespace Calculator
             operand2 = input;
             double.TryParse(operand1, out num1);
             double.TryParse(operand2, out num2);
-            if (procent == "2")
-            {
-                num2 = (num1 / 100) * num2;
-            }
-            else if (procent == "1")
-            {
-                num1 = (num1 / 100);
-            }
+
             if (operation == '+')
             {
                 result = num1 + num2;
@@ -229,7 +223,7 @@ namespace Calculator
             }
             else if (operation == '%')
             {
-                result = num1 / num2;
+                
             }
             else if (operation == '/')
             {
@@ -258,17 +252,7 @@ namespace Calculator
 
         private void Procent_Click(object sender, EventArgs e)
         {
-            fakeInput = "%";
-            if (string.IsNullOrEmpty(operand1))
-            {
-                procent = "1";
-            }
-            else
-            {
-                procent = "2";
-            }
-            canInput = false;
-            updateDisplay();
+            // procent broken
         }
     }
 }
