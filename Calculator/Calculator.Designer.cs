@@ -237,9 +237,9 @@ namespace Calculator
             this.Math.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Math.FlatAppearance.BorderSize = 0;
             this.Math.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Math.Location = new System.Drawing.Point(14, 299);
+            this.Math.Location = new System.Drawing.Point(11, 299);
             this.Math.Name = "Math";
-            this.Math.Size = new System.Drawing.Size(271, 50);
+            this.Math.Size = new System.Drawing.Size(274, 50);
             this.Math.TabIndex = 14;
             this.Math.TabStop = false;
             this.Math.Text = "=";
