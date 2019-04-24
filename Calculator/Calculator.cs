@@ -218,7 +218,7 @@ namespace Calculator
             if (procent2 == 1)
             {
                 num2 = num2 / 100;
-                if (procent1 == 1)
+                if ((procent1 == 1) && (operation == '+'))
                     num2 = num1 * num2;
             }
             MessageBox.Show(num1.ToString());
