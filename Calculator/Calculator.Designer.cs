@@ -304,9 +304,9 @@ namespace Calculator
             this.Euro.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Euro.FlatAppearance.BorderSize = 0;
             this.Euro.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Euro.Location = new System.Drawing.Point(179, 243);
+            this.Euro.Location = new System.Drawing.Point(235, 187);
             this.Euro.Name = "Euro";
-            this.Euro.Size = new System.Drawing.Size(106, 50);
+            this.Euro.Size = new System.Drawing.Size(50, 50);
             this.Euro.TabIndex = 22;
             this.Euro.TabStop = false;
             this.Euro.Text = "€";
@@ -316,11 +316,12 @@ namespace Calculator
             // Procent
             // 
             this.Procent.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Procent.Enabled = false;
             this.Procent.FlatAppearance.BorderSize = 0;
             this.Procent.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Procent.Location = new System.Drawing.Point(179, 187);
             this.Procent.Name = "Procent";
-            this.Procent.Size = new System.Drawing.Size(106, 50);
+            this.Procent.Size = new System.Drawing.Size(50, 50);
             this.Procent.TabIndex = 23;
             this.Procent.TabStop = false;
             this.Procent.Text = "%";
