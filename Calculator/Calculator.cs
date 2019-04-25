@@ -218,8 +218,8 @@ namespace Calculator
             if (procent2 == 1)
             {
                 num2 = num2 / 100;
-                if ((procent1 == 1) && (operation == '+'))
-                    num2 = num1 * num2;
+                //if ((procent1 == 1) && (operation == '+'))
+                    //num2 = num1 * num2;
             }
             MessageBox.Show(num1.ToString());
             MessageBox.Show(num2.ToString());
@@ -264,7 +264,7 @@ namespace Calculator
 
         private void Procent_Click(object sender, EventArgs e)
         {
-            if (procent1 == 0)
+            if (operand1 == string.Empty )
                 procent1 = 1;
             else
                 procent2 = 1;
